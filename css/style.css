@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    background-image: url('../images/bg-intro-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsl(0, 100%, 74%);
+}
+.btn-blue{
+    background-color: hsl(248, 32%, 49%);
+}
+form{
+    background-color: #fff;
+    border-radius: 7px;
+}
+input{
+    box-shadow: 1px 1px 1px #ccc, -1px -1px 1px #ccc;
+}
+.btn-green{
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+}
+.nameError, .lastNameError, .emailError, .passwordError {
+    display: none;
+    font-size: 0.8em;
+  }
+  
+  .nameError.visible, .lastNameError.visible, .emailError.visible, .passwordError.visible {
+    display: block;
+  }
+  
+  input.invalid {
+    border-color: red;
+  }
+@media (max-width: 426px){
+    br{
+        display: none;
+    }
+}
